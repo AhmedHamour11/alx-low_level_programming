@@ -1,4 +1,4 @@
-i#include <stdio.h>
+#include <stdio.h>
 /**
  * main - functin
  * Description:  program that prints the alphabet in lowercase,
