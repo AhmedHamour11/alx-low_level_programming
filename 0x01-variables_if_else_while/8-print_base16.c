@@ -8,17 +8,16 @@
 
 int main(void)
 {
-	int ch;
+	int x;
+	char let;
 
-	for (ch = 0; ch >= 10; ch++)
-	{
-		putchar((ch % 10) + '0');
+	for (x = 0; x < 10; x++)
+		putchar((x % 10) + '0');
 
-		for (ch = 'a'; ch <= 'f'; ch++)
-		putchar(ch);
+	for (let = 'a'; let <= 'f'; let++)
+		putchar(let);
 
-		putchar(ch);
-	}
 	putchar('\n');
+
 	return (0);
 }
