@@ -1,14 +1,15 @@
 #include "main.h"
 /**
-* main - check the code for Holberton School students.
-*
-* Return: Always 0.
+*print_alphabet - print all char from a to z
+* Description: 'the program's description'
 */
-int main(void)
+void print_alphabet(void)
 {
-	int ch;
-	for (ch = 'a'; ch <= 'z'; ch++)
+	char ch = 'a';
+	while (ch <= 'z')
+	{
 		_putchar(ch);
+		ch++;
+	}
 	_putchar('\n');
 }
-
