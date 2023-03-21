@@ -11,8 +11,8 @@ int main(void)
 
 	while (ch[i])
 	{
-			_putchar(ch[i]);
-			i++;
+		_putchar(ch[i]);
+		i++;
 	}
 	return (0);
 }
