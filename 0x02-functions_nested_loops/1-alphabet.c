@@ -1,9 +1,10 @@
-#include"main.h"
+#include "main.h"
 /**
- * print_alphabet - kfdljf dlfkjf 
- *
- */
-void prin_alphabet(void)
+* main - check the code for Holberton School students.
+*
+* Return: Always 0.
+*/
+int main(void)
 {
 	int ch;
 	for (ch = 'a'; ch <= 'z'; ch++)
